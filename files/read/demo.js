@@ -1,5 +1,5 @@
 var fs = require('fs')
-var data = require('../../data.json')
+var data = require('./data.json')
 
 console.log(data.name)
 
