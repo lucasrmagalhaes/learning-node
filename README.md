@@ -1,2 +1,7 @@
-# learning-node
-Learning Node.js
+```
+npm i lodash
+```
+
+```
+npm i -g nodemon
+```
