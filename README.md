@@ -11,5 +11,9 @@ npm init --yes
 ```
 
 ```
-npm install -s express
+npm i -s express
+```
+
+```
+npm i -s body-parser
 ```
