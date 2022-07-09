@@ -17,3 +17,7 @@ npm i -s express
 ```
 npm i -s body-parser
 ```
+
+```
+npm i -s socket.io
+```
