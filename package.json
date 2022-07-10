@@ -11,7 +11,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/lucasrmagalhaes/learning-node/issues"
   },
-  "homepage": "https://github.com/lucasrmagalhaes/learning-node#readme"
+  "homepage": "https://github.com/lucasrmagalhaes/learning-node#readme",
+  "devDependencies": {
+    "jasmine": "^4.2.1"
+  }
 }

@@ -27,3 +27,11 @@ npm i -s socket.io
 ```
 npm i -s mongoose
 ```
+
+```
+npm i --save-dev jasmine
+```
+
+```
+./node_modules/.bin/jasmine init
+```
