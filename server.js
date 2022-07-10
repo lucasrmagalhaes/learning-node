@@ -26,6 +26,16 @@ app.post('/messages', (req, res) =>{
     message.save((err) => {
         if (err) { sendStatus(500) }
         
+        Message.findOne({ message: 'palavrão'}, (err, censored) => {
+            if (censored) {
+                console.log('Censored words found', censored)
+
+                Message.deleteOne({ _id: censored.id }, (err) => {
+                    console.log('Removed censored message')
+                })
+            }
+        })
+
         io.emit('message', req.body)
         res.sendStatus(200)
     })
