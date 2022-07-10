@@ -2,9 +2,13 @@ var request = require('request')
 
 describe('calc', () => {
     it('should multiply 2 and 2', () => {
-        expect(2 * 2).toBe(4)
+        expect(multiply(2, 2)).toBe(4)
     })
 })
+
+function multiply(x, y) {
+    return x * y;
+}
 
 describe('get messages', () => {
     it('shoud return 200 OK', (done) => {
