@@ -35,3 +35,7 @@ npm i --save-dev jasmine
 ```
 ./node_modules/.bin/jasmine init
 ```
+
+```
+npm i --save-dev request
+```
