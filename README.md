@@ -22,4 +22,8 @@ npm i -s body-parser
 npm i -s socket.io
 ```
 
-[mlab](https://account.mongodb.com/account/login)
+[MongoDB](https://account.mongodb.com/account/login)
+
+```
+npm i -s mongoose
+```

@@ -2,6 +2,7 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.15.5",
+    "mongoose": "^5.13.5",
     "socket.io": "^2.0.3"
   },
   "name": "learning-node",
