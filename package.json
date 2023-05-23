@@ -3,7 +3,7 @@
     "body-parser": "^1.18.2",
     "express": "^4.15.5",
     "mongoose": "^6.4.4",
-    "socket.io": "^4.5.1"
+    "socket.io": "^4.6.1"
   },
   "name": "learning-node",
   "description": "Learning Node.js",
